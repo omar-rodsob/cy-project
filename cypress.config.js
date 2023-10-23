@@ -21,7 +21,7 @@ module.exports = defineConfig({
   e2e: {
     chromeWebSecurity:false,
     specPattern: "**/*.feature",
-    baseUrl:"https://www.google.com",
+    baseUrl:"http://localhost:3000",
     testFile:"**/*.feature",        
     setupNodeEvents,   
   }  
